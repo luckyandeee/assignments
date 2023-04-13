@@ -9,17 +9,15 @@
     border-radius: 20px;
     padding: 1%;
     background-color: rgb(4, 4, 67);
-   
+   z-index: 0;
     height: 400px;
 }
 input{
-    color: rgb(233, 233, 233);
     margin-bottom: 5px;
-    
     border-radius: 20px;
     padding-left: 30px;   
     height: 30px;
-    background-color: rgb(107, 107, 166);
+    background-color: rgb(34, 19, 101);
 }
 section{
     display: flex;
@@ -42,5 +40,11 @@ button{
     height: 50px;
     /* -align: center; */
     background-color: rgb(0, 204, 255);
-
 }
+input:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transform: translateY(-20%);
+    transition: all .8s ease;  
+}
+
